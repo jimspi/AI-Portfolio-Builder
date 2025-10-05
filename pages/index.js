@@ -349,7 +349,7 @@ export default function AIShowcasePlatform() {
                     
                     {/* Project Link */}
                     {project.link && (
-                      <a
+                      
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -447,7 +447,7 @@ export default function AIShowcasePlatform() {
                 type="text"
                 value={formData.title}
                 onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 outline-none transition"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
                 placeholder="AI Engineer | Machine Learning Enthusiast"
               />
             </div>
@@ -460,7 +460,7 @@ export default function AIShowcasePlatform() {
                 value={formData.bio}
                 onChange={(e) => setFormData({ ...formData, bio: e.target.value })}
                 rows="3"
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 outline-none transition resize-none"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition resize-none"
                 placeholder="Share a bit about your AI journey and what drives your passion..."
               />
             </div>
@@ -518,7 +518,7 @@ export default function AIShowcasePlatform() {
                 type="text"
                 value={currentProject.name}
                 onChange={(e) => setCurrentProject({ ...currentProject, name: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 outline-none transition"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
                 placeholder="Project Name *"
               />
             </div>
@@ -528,7 +528,7 @@ export default function AIShowcasePlatform() {
                 type="text"
                 value={currentProject.useCase}
                 onChange={(e) => setCurrentProject({ ...currentProject, useCase: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 outline-none transition"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
                 placeholder="Use Case (e.g., Content Generation, Data Analysis)"
               />
             </div>
@@ -538,7 +538,7 @@ export default function AIShowcasePlatform() {
                 value={currentProject.description}
                 onChange={(e) => setCurrentProject({ ...currentProject, description: e.target.value })}
                 rows="3"
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 outline-none transition resize-none"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition resize-none"
                 placeholder="Describe what you built and what you learned *"
               />
             </div>
@@ -548,7 +548,7 @@ export default function AIShowcasePlatform() {
                 type="text"
                 value={currentProject.tools}
                 onChange={(e) => setCurrentProject({ ...currentProject, tools: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 outline-none transition"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
                 placeholder="AI Tools Used (comma-separated: ChatGPT, Claude, Midjourney)"
               />
             </div>
@@ -561,7 +561,7 @@ export default function AIShowcasePlatform() {
                 type="url"
                 value={currentProject.link}
                 onChange={(e) => setCurrentProject({ ...currentProject, link: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 outline-none transition"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
                 placeholder="https://your-project.com"
               />
             </div>
@@ -574,7 +574,7 @@ export default function AIShowcasePlatform() {
                 type="url"
                 value={currentProject.previewImage}
                 onChange={(e) => setCurrentProject({ ...currentProject, previewImage: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 outline-none transition"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
                 placeholder="https://example.com/project-screenshot.jpg"
               />
               <p className="text-xs text-gray-500 mt-1">
