@@ -349,7 +349,7 @@ export default function AIShowcasePlatform() {
                     
                     {/* Project Link */}
                     {project.link && (
-                      
+                      <
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
